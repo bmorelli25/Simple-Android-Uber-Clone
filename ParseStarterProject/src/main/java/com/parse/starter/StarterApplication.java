@@ -8,6 +8,8 @@
  */
 package com.parse.starter;
 
+//This is our Parse Activity which includes the code necessary for parse to run
+
 import android.app.Application;
 import android.util.Log;
 
@@ -37,7 +39,7 @@ public class StarterApplication extends Application {
     );
 
 
-
+    //enable our AutomaticUser
     ParseUser.enableAutomaticUser();
     ParseACL defaultACL = new ParseACL();
     // Optionally enable public read access.

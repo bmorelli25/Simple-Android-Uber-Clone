@@ -1,5 +1,10 @@
 package com.parse.starter;
 
+//This activity is for RIDERS!
+//Once the app has determined you are a rider you are redirected to this page.
+//This is a Google Maps Activity that shows the user their location.
+//From this page they are able to request and cancel an UBER.
+
 import android.content.Context;
 import android.location.Criteria;
 import android.location.Location;
@@ -38,11 +43,12 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     Button requestUberButton;
     Boolean requestActive = false;
 
-
+    //Runs when a user clicks "REQUEST UBER"
     public void requestUber(View view){
-
+        //Allows the user to create a request
         if (requestActive == false) {
 
+            //create a new parse object with public read/write access that passes along our request to the database
             ParseObject request = new ParseObject("Requests");
             request.put("requesterUsername", "1");//ParseUser.getCurrentUser().getUsername());
             ParseACL parseACL = new ParseACL();
@@ -61,9 +67,11 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
             });
 
             Log.i("MyApp", "request successful");
-            //Log.i("MyApp", ParseUser.getCurrentUser().getUsername());
+
+        //Allows the user to cancel an already submitted request
         } else {
 
+            //search Parse for all objects with our username. Then deletes them from the database
             ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("Requests");
             query.whereEqualTo("requesterUsername", "1");//ParseUser.getCurrentUser().getUsername());
             query.findInBackground(new FindCallback<ParseObject>() {
@@ -99,6 +107,7 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
         infoTextView = (TextView) findViewById(R.id.infoTextView);
         requestUberButton = (Button) findViewById(R.id.requestUber);
 
+        //Use the location manager and provider to determine the users location accurate to 1 meter, updated 400 miliseconds
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         provider = locationManager.getBestProvider(new Criteria(), false);
         locationManager.requestLocationUpdates(provider, 400, 1, this);
@@ -106,12 +115,13 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
     }
 
+    //restarts the location search when the user opens the app up
     @Override
     protected void onResume() {
         super.onResume();
         locationManager.requestLocationUpdates(provider, 400, 1, this);
     }
-
+    //pauses location search when the user closes the app to save on battery
     @Override
     protected void onPause() {
         super.onPause();
@@ -131,6 +141,7 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+        //When our map is ready we use our location to animate the camera and create a marker showing where we are.
         Location location = locationManager.getLastKnownLocation(provider);
         if ( location != null){
             mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()), 10));
@@ -148,6 +159,7 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onLocationChanged(Location location) {
 
+        //Every time we change location we clear the map and update our zoom and marker location.
         mMap.clear();
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(location.getLatitude(), location.getLongitude()),10));
         mMap.addMarker(new MarkerOptions().position(new LatLng(location.getLatitude(), location.getLongitude())).title("Your Location"));
@@ -171,6 +183,8 @@ public class YourLocation extends FragmentActivity implements OnMapReadyCallback
 
     }
 
+    //Creates a geopoint for the rider and saves this geopoint in parse.
+    //This will allow us to later compare the rider geopoint with the driver geopoint.
     public void updateLocation(Location location){
         if (requestActive) {
             final ParseGeoPoint userLocation = new ParseGeoPoint(location.getLatitude(), location.getLongitude());

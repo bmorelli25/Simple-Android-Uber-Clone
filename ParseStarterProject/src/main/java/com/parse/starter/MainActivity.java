@@ -8,6 +8,8 @@
  */
 package com.parse.starter;
 
+//Simple Uber Clone App!
+
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,12 +31,14 @@ import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
 
+
 public class MainActivity extends AppCompatActivity {
 
+    //Determines if our user is a Rider or Driver
     Switch riderOrDriverSwitch;
 
+    //When the user hits the GET STARTED Button
     public void getStarted(View view){
-
         String riderOrDriver = "rider";
 
         if (riderOrDriverSwitch.isChecked()){
@@ -46,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             riderOrDriver = "rider";
         }
 
+        //save the users option of rider/driver to parse then we redirectUser()
     ParseUser.getCurrentUser().put("riderOrDriver", riderOrDriver);
         ParseUser.getCurrentUser().saveInBackground(new SaveCallback() {
             @Override
@@ -60,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //once rider/drive has been determined above, we can redirect the user to the correct class
     public void redirectUser(){
 
         if ( ParseUser.getCurrentUser().get("riderOrDriver").equals("rider")){
@@ -79,14 +85,16 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-      ParseUser.getCurrentUser().put("riderOrDriver", "driver");
-      riderOrDriverSwitch = (Switch) findViewById(R.id.riderOrDriverSwitch);
+    //set up our swtich for use above
+    riderOrDriverSwitch = (Switch) findViewById(R.id.riderOrDriverSwitch);
 
+    //Needed for parse
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
+    //Make the app full screen
+    getSupportActionBar().hide();
 
-      getSupportActionBar().hide();
-
+      //Logs in an anonymous user if no one is currently logged in. Logs result
       if(ParseUser.getCurrentUser() == null) {
           ParseAnonymousUtils.logIn(new LogInCallback() {
               @Override
@@ -98,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
                   }
               }
           });
+      //If a user is already logged in, and rider/driver has been established, we redirect the user to correct Activity using the redirectUser() function.
       } else {
           if (ParseUser.getCurrentUser().get("riderOrDriver") != null){
               Log.i("MyApp", "Redirect user");
@@ -106,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
       }
 
   }
-
+    //Options menu not used as we are full screen in this app
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     // Inflate the menu; this adds items to the action bar if it is present.
@@ -114,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
     return true;
   }
 
+    //Options menu not used as we are full screen in this app
   @Override
   public boolean onOptionsItemSelected(MenuItem item) {
     // Handle action bar item clicks here. The action bar will
