@@ -1,6 +1,6 @@
 package com.parse.starter;
 
-//This activity is for RIDERS!
+//This activity is for RIDERS!!
 //Once the app has determined you are a rider you are redirected to this page.
 //This is a Google Maps Activity that shows the user their location.
 //From this page they are able to request and cancel an UBER.

@@ -1,5 +1,7 @@
 package com.parse.starter;
 
+//Activity Manages the views of both rider and driver and is the last step before a ride is accepted
+
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v4.app.FragmentActivity;

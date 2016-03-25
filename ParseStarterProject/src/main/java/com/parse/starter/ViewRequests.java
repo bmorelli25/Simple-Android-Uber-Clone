@@ -1,6 +1,6 @@
 package com.parse.starter;
 
-// This is the Activity for DRIVERS!
+// This is the Activity for DRIVERS!!
 // This activity allows drivers to see a listview showing the closest rides
 // Drivers can click on the listview to see an individual ride which will take them to the ViewRiderLocation Activity
 

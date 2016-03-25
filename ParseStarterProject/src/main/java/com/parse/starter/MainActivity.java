@@ -8,7 +8,7 @@
  */
 package com.parse.starter;
 
-//Simple Uber Clone App!
+//Simple Uber Clone App. Read along. If you have questions feel free to email bmorelli25@gmail.com
 
 import android.app.ActionBar;
 import android.content.Intent;
