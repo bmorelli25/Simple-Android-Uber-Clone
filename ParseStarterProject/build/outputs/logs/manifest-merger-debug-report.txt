@@ -1,0 +1,464 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:9:1-68:12
+	xmlns:android
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:9:11-69
+	package
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:10:5-32
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:20:22-76
+application
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:22:5-66:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:20:5-25:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.3.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\design\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:26:9-41
+	android:allowBackup
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:24:9-35
+	android:icon
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:25:9-43
+	android:theme
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:27:9-40
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:23:9-43
+meta-data#com.parse.APPLICATION_ID
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:28:9-30:52
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:29:13-52
+	android:value
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:30:13-49
+meta-data#com.parse.CLIENT_KEY
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:31:9-33:56
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:32:13-48
+	android:value
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:33:13-53
+activity#com.parse.starter.MainActivity
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:35:9-43:20
+	android:label
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:37:13-45
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:36:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:41:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:52:9-54:55
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:53:13-58
+	android:value
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:54:13-52
+activity#com.parse.starter.YourLocation
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:56:9-58:68
+	android:label
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:58:13-65
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:57:13-41
+activity#com.parse.starter.ViewRequests
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:59:9-62:59
+	android:label
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:61:13-65
+	android:theme
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:60:13-41
+activity#com.parse.starter.ViewRiderLocation
+ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:63:9-65:83
+	android:label
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:65:13-71
+	android:name
+		ADDED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml:64:13-46
+uses-sdk
+INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appstate:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:22.2.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-panorama:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-plus:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-vision:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.3.0\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\design\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\src\main\AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\AndroidManifest.xml:30:19-91
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:22:13-58
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:23:13-66
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:21:9-24:46
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:22:19-78
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:24:19-43
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:23:19-52
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\AndroidManifest.xml:21:19-72
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:24:8-31
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:23:8-40
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\AndroidManifest.xml:21:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:24:22-65
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:28:7-31:37
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:28:7-31:37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:31:11-35
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:29:11-76
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:33:7-39:18
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:41:7-44:37
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:41:7-44:37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:44:11-35
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:43:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\AndroidManifest.xml:42:11-82
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:8.3.0] C:\Users\morellib\AndroidStudioProjects\Uber Clone\ParseStarterProject\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\AndroidManifest.xml:22:22-71

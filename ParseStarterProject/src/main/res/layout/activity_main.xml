@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/uber_logo" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/riderOrDriverSwitch"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="46dp"
+        android:checked="false"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:background="#86ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRIVE"
+        android:id="@+id/textView"
+        android:textSize="24sp"
+        android:textColor="#d5ffffff"
+        android:layout_alignTop="@+id/riderOrDriverSwitch"
+        android:layout_toEndOf="@+id/riderOrDriverSwitch"
+        android:layout_toRightOf="@+id/riderOrDriverSwitch"
+        android:background="#86ffffff"
+        android:layout_alignBottom="@+id/riderOrDriverSwitch"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RIDE"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:textColor="#d5ffffff"
+        android:layout_alignTop="@+id/riderOrDriverSwitch"
+        android:layout_toStartOf="@+id/riderOrDriverSwitch"
+        android:layout_toLeftOf="@+id/riderOrDriverSwitch"
+        android:background="#86ffffff"
+        android:layout_alignBottom="@+id/riderOrDriverSwitch"
+        android:paddingRight="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GET STARTED"
+        android:id="@+id/getStarted"
+        android:layout_marginTop="33dp"
+        android:onClick="getStarted"
+        android:layout_below="@+id/riderOrDriverSwitch"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
